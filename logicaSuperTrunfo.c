@@ -96,7 +96,7 @@ void compararCartas()
             printf("│ Carta 1 - %s (%s): %.2f         \n", carta1.nomeCidade,
                    carta1.populacao, carta1.populacao);
             printf("│ Carta 2 - %s (%s): %.2f         \n", carta2.nomeCidade,
-                   carta2.estado, carta2.populacao;
+                   carta2.estado, carta2.populacao;)
             printf("│                                 \n");
             if (carta1.populacao > carta2.populacao)
             {
