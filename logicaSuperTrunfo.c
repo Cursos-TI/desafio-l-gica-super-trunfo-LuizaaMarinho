@@ -94,11 +94,11 @@ void compararCartas()
             printf("│ Atributo: População        \n");
             printf("│                                 \n");
             printf("│ Carta 1 - %s (%s): %.2f         \n", carta1.nomeCidade,
-                   carta1.populacao, carta1.poppulacao);
+                   carta1.populacao, carta1.populacao);
             printf("│ Carta 2 - %s (%s): %.2f         \n", carta2.nomeCidade,
-                   carta2.estado, carta2.poppulacao;
+                   carta2.estado, carta2.populacao;
             printf("│                                 \n");
-            if (carta1.populacao > carta2.poppulacao)
+            if (carta1.populacao > carta2.populacao)
             {
                 printf("│ Carta 1 é a melhor!            \n");
             }
